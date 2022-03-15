@@ -3,10 +3,10 @@ import './App.css';
 import React, { useState } from 'react';
 import axios from 'axios';
 
-import { TextField } from '@mui/material';
+import TextField from '@mui/material/TextField';
 import { Box } from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material';
-import { lightBlue } from '@mui/material';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { lightBlue } from '@mui/material/colors';
 import Cards from './pages/Cards';
 
 const App = () => {
