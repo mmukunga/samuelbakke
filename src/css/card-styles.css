@@ -1,0 +1,39 @@
+  /*CARDUI*/
+
+  .card {
+    width: 20rem;
+    margin-bottom: 75px;
+    /* min-height: 200px; */
+  }
+
+  .card:hover {
+    box-shadow: 60px 20px 80px 0px rgba(91, 93, 91, 0.253)!important;
+  }
+
+  .card-body {
+    padding: 2rem 0 !important;
+    /* min-height: 200px; */
+    /* max-height: 200px; */
+  }
+
+  .card-text {
+    font-size: 9rem;
+    padding: 0.4rem 1.9rem;
+  }
+
+  .container-fluid-row {
+    padding-top: 6rem;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+  .card-img-top {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    size: 10%;
+  }
+
+  .card-img-top:hover {
+    transform: scale(1.8);
+  }
