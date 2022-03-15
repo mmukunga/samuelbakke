@@ -6,7 +6,7 @@ import axios from 'axios';
 import { TextField } from '@mui/material';
 import { Box } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material';
-import { lightBlue } from '@mui/material/colors';
+import { lightBlue } from '@mui/material';
 import Cards from './pages/Cards';
 
 const App = () => {
