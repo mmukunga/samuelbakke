@@ -39,3 +39,6 @@ main {
 .alt {
   background: url('movieHub/imgNotAvailable.jpg');
 }
+
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap/dist/css/bootstrap.css");
