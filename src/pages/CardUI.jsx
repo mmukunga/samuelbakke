@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 // import './card-styles.css'
-
-
 import MovieModal from './MovieModal'
 import axios from 'axios';
 import alt from '../movieHub/imgNotAvailable.jpg';

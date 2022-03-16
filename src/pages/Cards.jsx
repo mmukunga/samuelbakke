@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './CardUI'
+import CardUI from './CardUI'
 
 function Cards({ results }) {
 
@@ -13,7 +13,8 @@ function Cards({ results }) {
 					{
 							results.map((result, i) => (
 									<div key={i} className='col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center'> 
-											<Card key={result.Title} result={result}/>
+									sdfds
+											<CardUI key={result.Title} result={result}/>
 									</div>
 									
 							))
