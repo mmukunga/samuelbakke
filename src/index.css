@@ -40,5 +40,5 @@ main {
   background: url('movieHub/imgNotAvailable.jpg');
 }
 
-@import url("bootstrap/dist/css/bootstrap.min.css");
-@import url("bootstrap/dist/css/bootstrap.css");
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("../node_modules/bootstrap/dist/css/bootstrap.css");
